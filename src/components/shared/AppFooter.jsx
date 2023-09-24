@@ -1,9 +1,8 @@
 import {
 	FiGithub,
-	FiTwitter,
 	FiLinkedin,
 	FiGlobe,
-	FiYoutube,
+	FiInstagram, FiMessageSquare,
 } from 'react-icons/fi';
 import AppFooterCopyright from './AppFooterCopyright';
 
@@ -11,27 +10,27 @@ const socialLinks = [
 	{
 		id: 1,
 		icon: <FiGlobe />,
-		url: 'https://www.stoman.me/',
+		url: 'https://www.maftuh.me/',
 	},
 	{
 		id: 2,
 		icon: <FiGithub />,
-		url: 'https://github.com/realstoman',
+		url: 'https://github.com/Maftuhanshori-ui',
 	},
 	{
 		id: 3,
-		icon: <FiTwitter />,
-		url: 'https://twitter.com/realstoman',
+		icon: <FiMessageSquare />,
+		url: 'https://wa.me/6289657514613',
 	},
 	{
 		id: 4,
 		icon: <FiLinkedin />,
-		url: 'https://www.linkedin.com/in/realstoman',
+		url: 'https://www.linkedin.com/in/muhammad-maftuh-anshori-5b619b206',
 	},
 	{
 		id: 5,
-		icon: <FiYoutube />,
-		url: 'https://www.youtube.com/c/realstoman',
+		icon: <FiInstagram />,
+		url: 'https://www.instagram.com/maftuhanshr',
 	},
 ];
 
